@@ -47,6 +47,10 @@ OpenCore EFI configuration for **Lenovo ThinkPad X395** running macOS Ventura 13
 
 ## 🛠️ Usage
 
+1. Go to the **Releases** section on the right side of this repository.
+2. Download the latest `EFI.zip` and extract it.
+3. Replace your current **EFI** folder in your EFI system partition (ESP) with the extracted one.
+
 If you have the exact same laptop model and hardware configuration as mine, you can use this configuration by replacing your current **EFI** folder with the one provided in this repository.
 
 ---

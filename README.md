@@ -1,6 +1,12 @@
 # ThinkPad X395 Hackintosh (macOS Ventura)
 
+![OpenCore](https://img.shields.io/badge/Bootloader-OpenCore-green.svg)
+![macOS Version](https://img.shields.io/badge/macOS-Ventura%2013.7.8%20(22H730)-blue.svg)
+![Status](https://img.shields.io/badge/Status-Stable%20/%20Daily%20Driver-brightgreen.svg)
+
 OpenCore EFI configuration for **Lenovo ThinkPad X395** running macOS Ventura 13.7.8. Optimized for the AMD Ryzen mobile platform with native power management and graphics acceleration.
+
+> 💡 **Note:** I just made this EFI for fun, so feel free to enjoy it as-is and develop it further yourself. Honestly, it's a total skill issue on my end to fix the remaining bugs—and by the way, this `README.md` was written by AI because I'm just too lazy, lmao :v
 
 ---
 
@@ -31,9 +37,9 @@ OpenCore EFI configuration for **Lenovo ThinkPad X395** running macOS Ventura 13
 | **Trackpad & TrackPoint** | Working ✅ | Smooth tracking, gestures, and the red pointer work flawlessly |
 | **NVMe Storage** | Working ✅ | Functioning normally with native APFS support |
 | **Wi-Fi** | Working ✅ | Functioning normally using Intel OpenIntelWireless drivers |
-| **Bluetooth** | Broken ❌ | Currently non-functional |
-| **Touchscreen** | Broken ❌ | Not supported / disabled |
-| **Continuity Camera** | Issue ⚠️ | Fails to work properly |
+| **Bluetooth** | Issue ⚠️ | Bug Kext Maybe? |
+| **Touchscreen** | Issue ⚠️ | Bug Kext Maybe? |
+| **Continuity Camera** | Issue ⚠️ | Bug Kext Maybe? |
 
 ---
 
@@ -41,6 +47,10 @@ OpenCore EFI configuration for **Lenovo ThinkPad X395** running macOS Ventura 13
 
 If you have the exact same laptop model and hardware configuration as mine, you can use this configuration by replacing your current **EFI** folder with the one provided in this repository.
 
-> ⚠️ **Important:** Do not forget to generate and update your own SMBIOS serial numbers (`PlatformUUID`, `SystemSerialNumber`, `MLB`) using GenSMBIOS before booting and signing into your iCloud account.
+---
+
+## 📷 Screenshots
+
+![About This Mac](screenshots/about_mac.png)
 
 ---

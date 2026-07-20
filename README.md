@@ -1,5 +1,7 @@
 # ThinkPad X395 Hackintosh (macOS Ventura)
 
+> ⚠️ **Important:** Do not forget to generate and update your own SMBIOS serial numbers (`PlatformUUID`, `SystemSerialNumber`, `MLB`) using GenSMBIOS before booting and signing into your iCloud account.
+
 ![OpenCore](https://img.shields.io/badge/Bootloader-OpenCore-green.svg)
 ![macOS Version](https://img.shields.io/badge/macOS-Ventura%2013.7.8%20(22H730)-blue.svg)
 ![Status](https://img.shields.io/badge/Status-Stable%20/%20Daily%20Driver-brightgreen.svg)
